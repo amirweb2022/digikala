@@ -1,0 +1,93 @@
+@import "stracture";
+.login-cart {
+    @include flexBetween;
+    .btn-login {
+        @include flexCenter;
+        border: 1px solid #e0e0e2;
+        border-radius: 8px;
+        padding: 8px 15px;
+        margin-left: 10px;
+        .fa-door-open {
+            color: #424750;
+            margin-left: 10px;
+            font-size: 1.2rem
+        }
+        .text-log {
+            color: $color-black;
+            font-weight: 600;
+            font-size: 0.7rem;
+        }
+    }
+    .icon-cart-header {
+        border-right: 1px solid #e0e0e2;
+        padding: 0 14px;
+        color: #424750;
+        font-size: 1.2rem
+    }
+}
+.logo {
+    @include flexCenter;
+}
+.searrchBox {
+    background-color: #f0f0f1;
+    width: 650px;
+    margin-right: 20px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 8px;
+    .searchInput {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: none;
+        background-color: unset;
+        &::placeholder {
+            font-size: 12px;
+        }
+    }
+    .fa-search {
+        margin-left: 10px;
+        color: $color-icon-search;
+        font-size: 20px;
+    }
+}
+.list-item {
+    line-height: 1.2;
+    padding-left: 20px;
+    border-left: 1px solid #e0e0e2;
+    margin: 0 5px;
+    .link-list-item {
+        font-weight: 400;
+        font-size: 0.9rem;
+         color: #a1a3a8;
+         margin-right: 9px;
+         &:hover {
+            border-bottom: 2px solid $color-red;
+         }
+    }
+    .font-style {
+        font-size:0.8rem;
+    }
+    .active{
+        color: $color-black;
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 0;
+        &:hover {
+            border-bottom: 2px solid $color-red;
+        }
+    }
+}
+.disabled-border {
+    border: none;
+}
+.icon {
+    margin-left: 5px;
+    color: #545456;
+    font-size: 1rem;
+}
+.link-map {
+    color: #757578;
+}
