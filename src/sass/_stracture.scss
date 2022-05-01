@@ -25,6 +25,11 @@ $font-Iran:iran;
     align-items: center;
     text-align: center;
 }
+@mixin flexEnd {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
 * {
     margin: 0;
     padding: 0;

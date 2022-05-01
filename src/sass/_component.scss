@@ -91,3 +91,51 @@
 .link-map {
     color: #757578;
 }
+.btn-slider {
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute; 
+    bottom: 20px;
+    right: 40px;
+    .btn {
+        animation: btn 0.5s;
+        border: none;
+        outline: none;
+        width: 47px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: $color-white;
+        cursor: pointer;
+        @include flexCenter;
+        font-size: 1.1rem;
+        color:#5b5b5b;
+        display: none;
+    }
+}
+.number-slider {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    .number {
+        transition: all .3s;
+        display: inline-block;
+        height: 5px;
+        width: 5px;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+    }
+    .active-number {
+        background-color: $color-white;
+        border-radius: 50px;
+        width: 15px;
+        height: 6px;
+    }
+}
+@keyframes btn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

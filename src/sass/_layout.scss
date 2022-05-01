@@ -35,3 +35,32 @@
         font-size: 0.8rem;
     }
 }
+.container-slider {
+    width: 100%;
+    height: 400px;
+    position: relative;
+     .slider img{
+         width: 100%;
+         height: 100%;
+     }
+     .slider {
+         animation: slide 0.5s;
+         width: 100%;
+         height: 100%;
+         display: none;
+     }
+     .active {
+         display: inline-block;
+     }
+     &:hover .btn{
+        display: flex;
+     }
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
