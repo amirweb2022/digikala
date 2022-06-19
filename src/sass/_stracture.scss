@@ -17,7 +17,7 @@ $font-Iran:iran;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 @mixin flexBetween {
     display: flex;
@@ -30,6 +30,16 @@ $font-Iran:iran;
     justify-content: end;
     flex-direction: column;
 }
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: $color-icon-search; 
+    border-radius: 10px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +48,7 @@ $font-Iran:iran;
 }
 a {
     text-decoration: none;
+    color: $color-black;
 }
 li {
     list-style-type: none;

@@ -44,3 +44,7 @@ setInterval(() => {
     slider[i].style.display = "block";
     number[i].classList.add("active-number");
 }, 5000);
+let header = document.getElementById("header");
+document.onscroll = function() {
+      header.style.boxShadow = '0 0 2px 2px #eee';
+}

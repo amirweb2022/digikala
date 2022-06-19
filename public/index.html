@@ -1,139 +1,844 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
-    <script src="https://kit.fontawesome.com/6ca25c8864.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="/asset/image/logotab-removebg-preview.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/6ca25c8864.js"
+      crossorigin="anonymous"
+    ></script>
     <title>فروشگاه اینترنتی دیجی کالا</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header -->
-    <header class="header">
-        <!-- header-gift -->
-        <div class="headerGift">
-            <!-- background-img -->
+    <header class="header" id="header">
+      <!-- header-gift -->
+      <div class="headerGift">
+        <!-- background-img -->
+      </div>
+      <!-- header login and search bar -->
+      <div class="login-searchBox">
+        <!-- header logo and searchBox -->
+        <div class="logo-search">
+          <!-- header logo -->
+          <div class="logo">
+            <img src="/asset/image/logo.svg" alt="" />
+          </div>
+          <!-- searchBox -->
+          <div class="searrchBox">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="جستجو" class="searchInput" />
+          </div>
         </div>
-        <!-- header login and search bar -->
-        <div class="login-searchBox">
-            <!-- header logo and searchBox -->
-            <div class="logo-search">
-                <!-- header logo -->
-                <div class="logo">
-                    <img src="/asset/image/logo.svg" alt="">
-                </div>
-                <!-- searchBox -->
-                <div class="searrchBox">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="جستجو" class="searchInput">
-                </div>
+        <!-- header login -->
+        <div class="login-cart">
+          <!--header btnLog -->
+          <a href="#" class="btn-login">
+            <div class="logo-log">
+              <i class="fas fa-door-open"></i>
             </div>
-            <!-- header login -->
-            <div class="login-cart">
-                <!--header btnLog -->
-                <a href="#" class="btn-login">
-                    <div class="logo-log">
-                        <i class="fas fa-door-open"></i>
-                    </div>
-                    <div class="text-log">
-                        ورود | ثبت نام
-                    </div>
-                </a>
-                <!-- header icon cart -->
-                <a href="#" class="icon-cart-header">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-            </div>
+            <div class="text-log">ورود | ثبت نام</div>
+          </a>
+          <!-- header icon cart -->
+          <a href="#" class="icon-cart-header">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
         </div>
+      </div>
     </header>
     <!-- header menu -->
     <div class="list-map">
-        <!-- menu-list -->
-        <div class="menu">
-            <!-- start menu-list -->
-            <ul class="list-menu">
-                <!-- list item -->
-                <li class="list-item">
-                    <a href="#" class="link-list-item active"><i class="fas fa-bars"></i> دسته بندی کالاها</a>
-                </li>
-                <!-- list item -->
-                <li class="list-item">
-                    <a href="#" class="link-list-item"><i class="fab fa-firefox-browser"></i> پرفروش ترین ها</a>
-                    <a href="#" class="link-list-item"><i class="fas fa-tags"></i> تخفیف ها و پیشنهاد ها</a>
-                    <a href="#" class="link-list-item"><i class="fas fa-percent"></i> شگفت انگیز ها</a>
-                </li>
-                <!-- list item -->
-                <li class="list-item disabled-border">
-                    <a href="#" class="link-list-item font-style">سوالی دارید؟</a>
-                    <a href="#" class="link-list-item font-style">فروشنده شوید!</a>
-                </li>
-            </ul>
-            <!-- end menu-list -->
-        </div>
-        <!-- map -->
-        <div class="map">
-            <!-- icon map -->
-            <span class="icon">
-                <i class="fas fa-map-marker-alt"></i>
-            </span>
-            <!-- link map -->
-            <a href="#" class="link-map">لطفا شهر خود را انتخاب کنید</a>
-        </div>
+      <!-- menu-list -->
+      <div class="menu">
+        <!-- start menu-list -->
+        <ul class="list-menu">
+          <!-- list item -->
+          <li class="list-item">
+            <a href="#" class="link-list-item active"
+              ><i class="fas fa-bars"></i> دسته بندی کالاها</a
+            >
+          </li>
+          <!-- list item -->
+          <li class="list-item">
+            <a href="#" class="link-list-item"
+              ><i class="fab fa-firefox-browser"></i> پرفروش ترین ها</a
+            >
+            <a href="#" class="link-list-item"
+              ><i class="fas fa-tags"></i> تخفیف ها و پیشنهاد ها</a
+            >
+            <a href="#" class="link-list-item"
+              ><i class="fas fa-percent"></i> شگفت انگیز ها</a
+            >
+          </li>
+          <!-- list item -->
+          <li class="list-item disabled-border">
+            <a href="#" class="link-list-item font-style">سوالی دارید؟</a>
+            <a href="#" class="link-list-item font-style">فروشنده شوید!</a>
+          </li>
+        </ul>
+        <!-- end menu-list -->
+      </div>
+      <!-- map -->
+      <div class="map">
+        <!-- icon map -->
+        <span class="icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
+        <!-- link map -->
+        <a href="#" class="link-map">لطفا شهر خود را انتخاب کنید</a>
+      </div>
     </div>
     <!-- slider -->
     <div class="container-slider">
-        <div class="slider active">
-            <img src="/asset//image//slide1.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide2.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide3.gif" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide4.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide5.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide6.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide7.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide8.jpg" alt="">
-        </div>
-        <div class="slider">
-            <img src="/asset//image//slide9.jpg" alt="">
-        </div>
-        <!-- btn slider -->
-        <div class="btn-slider">
-            <!-- btn Back -->
-            <button class="btn btn-back">
-                <i class="fas fa-angle-right"></i>
-            </button>
-            <!-- btn right -->
-            <button class="btn btn-next" style="margin-right: 10px;">
-                <i class="fas fa-angle-left"></i>
-            </button>
-        </div>
-        <!-- number slider -->
-        <div class="number-slider">
-            <span class="number active-number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-            <span class="number"></span>
-        </div>
+      <div class="slider active">
+        <img src="/asset//image//slide1.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide2.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide3.gif" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide4.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide5.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide6.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide7.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide8.jpg" alt="" />
+      </div>
+      <div class="slider">
+        <img src="/asset//image//slide9.jpg" alt="" />
+      </div>
+      <!-- btn slider -->
+      <div class="btn-slider">
+        <!-- btn Back -->
+        <button class="btn btn-back">
+          <i class="fas fa-angle-right"></i>
+        </button>
+        <!-- btn next -->
+        <button class="btn btn-next" style="margin-right: 10px">
+          <i class="fas fa-angle-left"></i>
+        </button>
+      </div>
+      <!-- number slider -->
+      <div class="number-slider">
+        <span class="number active-number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+        <span class="number"></span>
+      </div>
     </div>
+    <!-- main -->
+    <main class="main">
+      <!-- list markting -->
+      <div class="list-markting">
+        <!-- list -->
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/digikalaJet.png" alt="" />
+            <span class="text-list">
+              <p>دیجی کالا جت</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/digiStyle.png" alt="" />
+            <span class="text-list">
+              <p>دیجی استایل</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/digipay.png" alt="" />
+            <span class="text-list">
+              <p>دیجی پی</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/digikalaMehr.png" alt="" />
+            <span class="text-list">
+              <p>دیجی کالا مهر</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/mamoriat.png" alt="" />
+            <span class="text-list">
+              <p>ماموریت ها</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/digiPlus.png" alt="" />
+            <span class="text-list">
+              <p>دیجی پلاس</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <img src="/asset//image/digiClub.png" alt="" />
+            <span class="text-list">
+              <p>دیجی کلاب</p>
+            </span>
+          </a>
+        </div>
+        <div class="list">
+          <a href="#">
+            <div class="dot">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+            <span class="text-list">
+              <p style="margin-top: 6px">بیشتر</p>
+            </span>
+          </a>
+        </div>
+      </div>
+      <!-- products -->
+      <div class="products">
+        <!-- product-slider -->
+        <div class="product-slider">
+          <!-- image-product -->
+          <div class="image-product">
+            <a href="#">
+              <div class="text-img-product">
+                <img
+                  src="/asset/image/amazing-typo.svg"
+                  alt=""
+                  width="60%"
+                  height="100%"
+                />
+              </div>
+              <div class="img-product">
+                <img
+                  src="/asset/image/General.png"
+                  alt=""
+                  width="65%"
+                  height="auto"
+                />
+              </div>
+              <div class="text-product">
+                <p>مشاهده همه</p>
+                <i class="fas fa-angle-left"></i>
+              </div>
+            </a>
+          </div>
+          <!-- box-slide -->
+          <div class="product-box">
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro1.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>69%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>803,210</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>2,750,00</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro2.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>9%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>2,039,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>2,229,00</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro3.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>17%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>2,149,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>2,580,00</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro4.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>8%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>10,799,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>11,799,00</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro5.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>70%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>198,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>650,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro6.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>11%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>3,550,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>4,000,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro7.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>48%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>28,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>55,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro8.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>15%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>2,675,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>3,150,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro9.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>18%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>14,500,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>17,600,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro10.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>19%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>729,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>900,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro11.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>60%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>89,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>225,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <!-- img offer -->
+              <div class="img-offer">
+                <img src="/asset/image/PromotedIncredibleOffer.svg" alt="" />
+              </div>
+              <!-- img-product -->
+              <div class="img-box-pro">
+                <img
+                  src="/asset//image/pro12.jpg"
+                  alt=""
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <!-- price-pro -->
+              <div class="section-price">
+                <!-- offer-price -->
+                <div class="offer">
+                  <span>21%</span>
+                </div>
+                <!-- price -->
+                <div class="price">
+                  <span>1,149,000</span>
+                  <span class="toman-text"> توما </span>
+                  <span class="finsh-toman"> ن </span>
+                </div>
+              </div>
+              <!-- offer -->
+              <div class="Price-before-discount">
+                <del>1,450,000</del>
+              </div>
+            </div>
+            <!-- box-pro -->
+            <div class="box">
+              <div class="more">
+                <a href="#"><i class="fas fa-arrow-left"></i></a>
+                <p>مشاهده همه</p>
+              </div>
+            </div>
+          </div>
+          <!-- btn-products -->
+          <a href="#" class="btn-products-right">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <a href="#" class="btn-products-left">
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Amazing-offer -->
+      <div class="Amazing">
+          <!-- container-Amazing -->
+          <div class="container-Amazing">
+              <!-- Item-Right-Amazing -->
+              <div class="Item-Amazing-Right">
+                  <!-- img-cart-amazing -->
+                  <div class="image-amazing">
+                      <img src="/asset/image/fresh.png" alt="">
+                  </div>
+                  <!-- text-amazing -->
+                  <div class="text-amazing">
+                      <img src="/asset/image/fresh.svg" alt="">
+                  </div>
+                  <!-- Discount label -->
+                  <div class="lable">
+                      <span>تا 54% تخفیف</span>
+                  </div>
+              </div>
+              <!-- Item-Left-Amazing -->
+              <div class="Item-Left-Amazing">
+                  <!-- product-amazing -->
+                  <a href="#">
+                    <div class="product-amazing">
+                        <img src="/asset/image/shegeft1.jpg">
+                        <div class="offer-amazing">
+                            <span>22%</span>
+                        </div>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="product-amazing">
+                        <img src="/asset/image/shegeft2.jpg">
+                        <div class="offer-amazing">
+                            <span>12%</span>
+                        </div>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="product-amazing">
+                        <img src="/asset/image/shegeft4.jpg">
+                        <div class="offer-amazing">
+                            <span>20%</span>
+                        </div>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="product-amazing">
+                        <img src="/asset/image/shegeft5.jpg">
+                        <div class="offer-amazing">
+                            <span>53%</span>
+                        </div>
+                    </div>
+                  </a>
+                 <a href="#">
+                    <div class="product-amazing">
+                        <img src="/asset/image/shegeft6.jpg">
+                        <div class="offer-amazing">
+                            <span>16%</span>
+                        </div>
+                    </div>
+                 </a>
+                  <!-- button-amazing -->
+                  <div class="button-amazing">
+                      <a href="#">
+                        <span class="text-button">بیش از 70 کالا</span>
+                        <i class="fas fa-arrow-left arrow-amazing"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- suggestion -->
+      <div class="suggestion">
+          <div class="Item-suggestion">
+              <img src="/asset/image/suggestions1.jpg">
+          </div>
+          <div class="Item-suggestion">
+              <img src="/asset/image/suggestions2.jpg">
+          </div>
+          <div class="Item-suggestion">
+              <img src="/asset/image/suggestions3.jpg">
+          </div>
+          <div class="Item-suggestion">
+              <img src="/asset/image/suggestions4.jpg">
+          </div>
+      </div>
+      <!-- catgory -->
+      <div class="catgory">
+          <h2>دسته‌بندی‌های دیجی‌کالا</h2>
+        <!-- container-catgory -->
+        <div class="container-catgory">
+            <!-- Item-catgory -->
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat1.png">
+                </div>
+                <p>
+                    <a href="#">کالای دیجیتال</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat2.png">
+                </div>
+                <p>
+                    <a href="#">خودرو، ابزار و تجهیزات صنعتی</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat3.png">
+                </div>
+                <p> 
+                    <a href="#">مد و پوشاک</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat4.png">
+                </div>
+                <p>
+                    <a href="#">اسباب بازی، کودک و نوزاد</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat5.png">
+                </div>
+                <p>
+                    <a href="#">کالاهای سوپرمارکتی</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat6.png">
+                </div>
+                <p>
+                    <a href="#">زیبایی و سلامت</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat7.png">
+                </div>
+                <p>
+                    <a href="#">خانه و آشپزخانه</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat8.png">
+                </div>
+                <p>
+                    <a href="#">کتاب، لوازم تحریر و هنر</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat9.png">
+                </div>
+                <p>
+                    <a href="#">ورزش و سفر</a>
+                </p>
+            </div>
+            <div class="Item-catgory">
+                <div class="img-catgory">
+                    <img src="/asset/image/cat10.png">
+                </div>
+                <p>
+                    <a href="#">محصولات بومی و محلی</a>
+                </p>
+            </div>
+        </div>
+      </div>
+    </main>
     <script src="/src/js/app.js"></script>
-</body>
+  </body>
 </html>
