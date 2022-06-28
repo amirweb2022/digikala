@@ -264,6 +264,7 @@
     color:#5b5b5b;
     position: absolute;
     left: 0px;
+    border: 1px solid rgb(191, 195, 199);
 }
 .btn-products-left {
     width: 47px;
@@ -276,6 +277,7 @@
     position: absolute;
     right: 10px;
     display: none;
+    border: 1px solid rgb(191, 195, 199);
 }
 .Item-Amazing-Right {
     padding-right: 20px;
@@ -372,4 +374,69 @@
             color: #0c0c0c;
         }
     }
+}
+.container-box-suggestion {
+    @extend .product-box;
+    .box-suggestion-slider {
+        min-width: 200px;
+        height: 100%;
+        border-right: 1px solid rgb(226, 222, 222);
+        margin-left: 10px;
+        padding-left: 20px;
+        @include felexColumn;
+        .item-box-suggestion {
+            width: 100%;
+            height: 100%;
+            margin-left: 15px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid rgb(236, 232, 232);
+            .img-box-suggestion {
+                width: 50%;
+                height: 50%;
+                padding: 10px 0;
+                border-radius: 50%;
+                background-color: rgb(232, 236, 236);
+                @include flexCenter;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #0c0c0c;
+                margin-bottom: 10px;
+            }    
+        }
+    }
+}
+.container-box-suggestion-best {
+    padding-bottom: 20px;
+}
+.btn-suggestion-right {
+    width: 47px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $color-white;
+    @include flexCenter;
+    font-size: 1.1rem;
+    color:#5b5b5b;
+    position: absolute;
+    left: 5px;
+    border: 1px solid rgb(191, 195, 199);
+}
+.btn-suggestion-left {
+    width: 47px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $color-white;
+    @include flexCenter;
+    font-size: 1.1rem;
+    color:#5b5b5b;
+    position: absolute;
+    right:5px;
+    border: 1px solid rgb(191, 195, 199);
+    display: none;
 }
