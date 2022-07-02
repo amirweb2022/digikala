@@ -147,6 +147,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    text-align: center;
     .text-img-product {
         width: 100%;
         height: 30%;
@@ -439,4 +440,69 @@
     right:5px;
     border: 1px solid rgb(191, 195, 199);
     display: none;
+}
+.parent-box-catgory-more-right {
+    width: 50%;
+    height: 100%;
+    @include flexBetween;
+    border-left: 1px solid rgb(191, 195, 199);
+    .child-box-catgory-more-right {
+        width: 50%;
+        height: 100%;
+        padding:15px 0;
+        border-left: 1px solid rgb(221, 223, 224);
+        .titile-child-box-catgory-more-right {
+            width: 100%;
+            @include felexColumn;
+            padding-right: 18px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            p {
+                color: #81858b;
+                font-size: 11px;
+                margin-top: 8px;
+                font-weight: normal
+            }
+        }
+        .product-child-box-catgory-more-right {
+            width: 100%;
+            height: 100%;
+            @include flexCenter;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            padding: 0 18px;
+            .product-box {
+                @include flexCenter;
+                height: auto;
+                width: 50%;
+                padding: 10px 0;
+                border-left: 1px solid rgb(221, 223, 224);
+                border-bottom: 1px solid rgb(221, 223, 224);
+                img {
+                    width: 90%;
+                }
+            }
+        }
+        .look-more {
+            width: 100%;
+            @include flexCenter;
+            margin-top: 10px;
+            a {
+                color: #19bfd3;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            i {
+                color: #19bfd3;
+                font-size: 12px;
+                font-weight: bold;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.parent-box-catgory-more-left {
+    @extend .parent-box-catgory-more-right;
+    border: none;
 }
