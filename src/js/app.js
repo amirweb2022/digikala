@@ -4,11 +4,6 @@ var btnNext = document.querySelector(".btn-next");
 var number = document.getElementsByClassName("number");
 var i = 0;
 var n;
-// header shadow
-let header = document.getElementById("header");
-document.onscroll = function () {
-  header.style.boxShadow = "0 0 2px 2px #eee";
-};
 // popup message
 function popUP() {
   let popUpimage = document.getElementById("popup-image");

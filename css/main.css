@@ -676,6 +676,256 @@ h2 {
   border: none;
 }
 
+.digiplus-content {
+  padding: 20px 40px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.digiplus-content .logo-digiplus {
+  width: 100%;
+  height: auto;
+}
+
+.digiplus-content .text-digiplus {
+  color: #fff;
+  font-size: 14px;
+}
+
+.digiplus-content .Membership {
+  padding: 15px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.digiplus-content .Membership .button-digiplus {
+  background-color: transparent;
+  border: 1.5px solid #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digiplus-content .Membership .button-digiplus i {
+  margin-right: 10px;
+}
+
+.digiplus-content .Membership .img-free-digiplus {
+  width: 60%;
+  height: 100%;
+}
+
+.digiplus-content-left {
+  width: 40%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.digiplus-content-left .header-digiplus-content-left {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.digiplus-content-left .header-digiplus-content-left .Immediate-delivery {
+  display: flex;
+}
+
+.digiplus-content-left .header-digiplus-content-left .Immediate-delivery .icon-rocket {
+  color: #a63489;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.digiplus-content-left .header-digiplus-content-left .Immediate-delivery .text-Immediate-delivery {
+  font-weight: 700;
+  color: #0c0c0c;
+}
+
+.digiplus-content-left .header-digiplus-content-left .look-more {
+  color: #a63489;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.digiplus-content-left .header-digiplus-content-left .look-more a {
+  color: #a63489;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.digiplus-content-left .body-digiplus-content-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.digiplus-content-left .body-digiplus-content-left .box-body-digiplus-content-left {
+  width: calc(100% / 3);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.digiplus-content-left .body-digiplus-content-left .box-body-digiplus-content-left img {
+  width: 80%;
+}
+
+.logo-digiclub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.Label-digiclub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Label-digiclub .labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 300px;
+  height: 70px;
+  padding-right: 20px;
+  border-radius: 8px 0 0px 8px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+.Label-digiclub .labels img {
+  width: 50%;
+}
+
+.Label-digiclub .labels .text-Awards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Label-digiclub .labels .text-Awards p {
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0c0c0c;
+}
+
+.Label-digiclub .labels .text-Awards i {
+  color: #007295;
+  font-size: 18px;
+}
+
+.title-Best-selling-products {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+  display: flex;
+}
+
+.title-Best-selling-products p {
+  text-align: center;
+  color: #0c0c0c;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.title-Best-selling-products p i {
+  color: #f9a825;
+}
+
+.title-Best-selling-products a {
+  margin-left: 15px;
+  color: #19bfd3;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container-box-Best-selling-products {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container-box-Best-selling-products .box-content-Best-selling-products {
+  max-width: 400px;
+  min-width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 10px;
+}
+
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content img {
+  width: 50%;
+}
+
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content span {
+  color: #19bfd3;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .text-item-box-content {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: -40px;
+  font-size: 12px;
+  color: #424750;
+  font-weight: 400;
+  border-bottom: 1px solid #f0f0f1;
+  padding: 20px 0;
+}
+
 .popup-image {
   width: 500px;
   height: 200px;
@@ -908,13 +1158,13 @@ h2 {
   border-radius: 10px;
 }
 
-.main .suggestion-slider, .main .catgory-more {
+.main .suggestion-slider, .main .catgory-more, .main .digiplus, .main .digiclub, .main .Best-selling-products {
   width: 100%;
   height: 100%;
   margin-top: 30px;
 }
 
-.main .suggestion-slider .container-suggestion-slider, .main .catgory-more .container-suggestion-slider {
+.main .suggestion-slider .container-suggestion-slider, .main .catgory-more .container-suggestion-slider, .main .digiplus .container-suggestion-slider, .main .digiclub .container-suggestion-slider, .main .Best-selling-products .container-suggestion-slider {
   width: 80%;
   height: 100%;
   border: 1px solid #e2dede;
@@ -928,11 +1178,11 @@ h2 {
   margin: 0 auto;
 }
 
-.main .suggestion-slider .container-suggestion-slider h2, .main .catgory-more .container-suggestion-slider h2 {
+.main .suggestion-slider .container-suggestion-slider h2, .main .catgory-more .container-suggestion-slider h2, .main .digiplus .container-suggestion-slider h2, .main .digiclub .container-suggestion-slider h2, .main .Best-selling-products .container-suggestion-slider h2 {
   margin: 20px auto;
 }
 
-.main .suggestion-slider .container-suggestion-slider h2 i, .main .catgory-more .container-suggestion-slider h2 i {
+.main .suggestion-slider .container-suggestion-slider h2 i, .main .catgory-more .container-suggestion-slider h2 i, .main .digiplus .container-suggestion-slider h2 i, .main .digiclub .container-suggestion-slider h2 i, .main .Best-selling-products .container-suggestion-slider h2 i {
   color: #f9bc00;
 }
 
@@ -947,6 +1197,68 @@ h2 {
   position: relative;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.main .digiplus .container-digiplus, .main .digiclub .container-digiplus {
+  padding: 10px 15px;
+  width: 80%;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+  background-color: #941b80;
+}
+
+.main .digiclub {
+  margin-top: 10px;
+}
+
+.main .digiclub .container-digiplus {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+}
+
+.main .Best-selling-products .container-best-selling-products {
+  width: 80%;
+  height: 100%;
+  border: 1px solid #e2dede;
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main .banner {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.main .banner .content-banner {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main .banner .content-banner img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 @font-face {

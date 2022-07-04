@@ -506,3 +506,199 @@
     @extend .parent-box-catgory-more-right;
     border: none;
 }
+.digiplus-content {
+    padding: 20px 40px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    .logo-digiplus {
+        width: 100%;
+        height: auto;
+    }
+    .text-digiplus {
+        color: $color-white;
+        font-size: 14px;
+    }
+    .Membership {
+        padding: 15px 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+        .button-digiplus {
+            background-color: transparent;
+            border: 1.5px solid $color-white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: $color-white;
+            cursor: pointer;
+            @include flexCenter;
+            i {
+                margin-right: 10px;
+            }
+        }
+        .img-free-digiplus {
+            width: 60%;
+            height: 100%;
+        }
+    }
+}
+.digiplus-content-left {
+    width: 40%;
+    height: 100%;
+    background-color: $color-white;
+    border-radius: 8px;
+    .header-digiplus-content-left {
+        width: 100%;
+        @include flexBetween;
+        text-align: center;
+        padding: 20px 20px;
+        .Immediate-delivery {
+            display: flex;
+            .icon-rocket {
+                color: #a63489;
+                font-size: 20px;
+                margin-left: 10px;
+            }
+            .text-Immediate-delivery {
+                font-weight: 700;
+                color: #0c0c0c;
+            }
+        }
+        .look-more {
+            color: #a63489;
+            font-size: 12px;
+            @include flexCenter;
+            font-weight: 700;
+            a {
+                color: #a63489;
+                font-size: 12px;
+                margin-left: 5px;
+                font-weight: 700;
+            }
+        }
+    }
+    .body-digiplus-content-left {
+        width: 100%;
+        @include flexCenter;
+        flex-wrap: wrap;
+        .box-body-digiplus-content-left {
+            width: calc(100% / 3);
+            margin-bottom: 20px;
+            @include flexCenter;
+            img {
+                width: 80%;
+            }
+        }
+    }
+}
+.logo-digiclub {
+    @include flexCenter;
+    padding-right: 10px;
+}
+.Label-digiclub {
+    @include flexCenter;
+    .labels {
+        @include flexBetween;
+        background-color: $color-white;
+        width: 300px;
+        height: 70px;
+        padding-right: 20px;
+        border-radius: 8px 0 0px 8px;
+        margin-left: 5px;
+        overflow: hidden;
+        img {
+            width: 50%;
+        }
+        .text-Awards {
+            @include flexCenter;
+            p {
+                margin-right: 8px;
+                font-size: 14px;
+                font-weight: bold;
+                color: #0c0c0c;
+            }
+            i {
+                color: #007295;
+                font-size: 18px;
+            }
+        }
+    }
+}
+.title-Best-selling-products {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    display: flex;
+    p {
+        text-align: center;
+        color: #0c0c0c;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0 auto;
+        i {
+            color: #f9a825;
+        }
+    }
+    a {
+        margin-left: 15px;
+        color: #19bfd3;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+.container-box-Best-selling-products {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    .box-content-Best-selling-products {
+        max-width: 400px;
+        min-width: 400px;
+        height: 100%;
+        @include felexColumn;
+        justify-content: flex-start;
+        padding: 20px 10px;
+        .item-box-content-Best-selling-products {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            // margin-bottom: 10px;
+            .image-item-box-content {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin: 5px 0;
+                img {
+                    width: 50%;
+                }
+                span {
+                    color: #19bfd3;
+                    font-size: 1.9rem;
+                    font-weight: 800;
+                }
+            }
+            .text-item-box-content {
+                width: 55%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-right:-40px;
+                font-size: 12px;
+                color: #424750;
+                font-weight: 400;
+                border-bottom: 1px solid #f0f0f1;
+                padding: 20px 0;
+            }
+        }
+    }
+}
