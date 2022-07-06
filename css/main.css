@@ -188,7 +188,7 @@ h2 {
 }
 
 .number-slider .number {
-  transition: all .3s;
+  transition: all 0.3s;
   display: inline-block;
   height: 5px;
   width: 5px;
@@ -926,6 +926,184 @@ h2 {
   padding: 20px 0;
 }
 
+.header-section-Selection-of-discount {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.header-section-Selection-of-discount h2 {
+  font-weight: 500;
+}
+
+.container-box-section-Selection-of-discount {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount {
+  width: calc(100% / 6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: center;
+  border-left: 1px solid #e2dede;
+  border-bottom: 1px solid #e2dede;
+  margin-bottom: 10px;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .image-box-section-Selection-of-discount {
+  width: 80%;
+  height: 100%;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .image-box-section-Selection-of-discount img {
+  width: 100%;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .section-price {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .section-price .offer {
+  height: 20px;
+  width: 34px;
+  border-radius: 50px;
+  background-color: #ef4056;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  padding-top: 1px;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .section-price .price {
+  padding: 13px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #424750;
+  position: relative;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .section-price .price .toman-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #424750;
+  margin-right: 3px;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .section-price .price .finsh-toman {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 13px;
+}
+
+.container-box-section-Selection-of-discount .box-section-Selection-of-discount .Price-before-discount {
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+  color: #c0c2c5;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.look-more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.look-more a {
+  color: #19bfd3;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.look-more i {
+  color: #19bfd3;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.header-container-readings {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-container-readings p {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.header-container-readings .link-reading a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #19bfd3;
+}
+
+.container-box-readings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.container-box-readings a {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.container-box-readings a .box-reading {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.container-box-readings a .box-reading .image-reading {
+  width: 100%;
+  height: 100%;
+}
+
+.container-box-readings a .box-reading .image-reading img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-box-readings a .box-reading .text-box-reading {
+  width: 100%;
+  height: 60px;
+  padding: 5px 10px;
+  font-size: 13px;
+  color: #0c0c0c;
+}
+
 .popup-image {
   width: 500px;
   height: 200px;
@@ -1158,13 +1336,13 @@ h2 {
   border-radius: 10px;
 }
 
-.main .suggestion-slider, .main .catgory-more, .main .digiplus, .main .digiclub, .main .Best-selling-products {
+.main .suggestion-slider, .main .catgory-more, .main .digiplus, .main .digiclub, .main .Best-selling-products, .main .Selection-of-discount-and-auction-products, .main .Readings {
   width: 100%;
   height: 100%;
   margin-top: 30px;
 }
 
-.main .suggestion-slider .container-suggestion-slider, .main .catgory-more .container-suggestion-slider, .main .digiplus .container-suggestion-slider, .main .digiclub .container-suggestion-slider, .main .Best-selling-products .container-suggestion-slider {
+.main .suggestion-slider .container-suggestion-slider, .main .catgory-more .container-suggestion-slider, .main .digiplus .container-suggestion-slider, .main .digiclub .container-suggestion-slider, .main .Best-selling-products .container-suggestion-slider, .main .Selection-of-discount-and-auction-products .container-suggestion-slider, .main .Readings .container-suggestion-slider, .main .Selection-of-discount-and-auction-products .section-Selection-of-discount {
   width: 80%;
   height: 100%;
   border: 1px solid #e2dede;
@@ -1178,11 +1356,11 @@ h2 {
   margin: 0 auto;
 }
 
-.main .suggestion-slider .container-suggestion-slider h2, .main .catgory-more .container-suggestion-slider h2, .main .digiplus .container-suggestion-slider h2, .main .digiclub .container-suggestion-slider h2, .main .Best-selling-products .container-suggestion-slider h2 {
+.main .suggestion-slider .container-suggestion-slider h2, .main .catgory-more .container-suggestion-slider h2, .main .digiplus .container-suggestion-slider h2, .main .digiclub .container-suggestion-slider h2, .main .Best-selling-products .container-suggestion-slider h2, .main .Selection-of-discount-and-auction-products .container-suggestion-slider h2, .main .Readings .container-suggestion-slider h2, .main .Selection-of-discount-and-auction-products .section-Selection-of-discount h2 {
   margin: 20px auto;
 }
 
-.main .suggestion-slider .container-suggestion-slider h2 i, .main .catgory-more .container-suggestion-slider h2 i, .main .digiplus .container-suggestion-slider h2 i, .main .digiclub .container-suggestion-slider h2 i, .main .Best-selling-products .container-suggestion-slider h2 i {
+.main .suggestion-slider .container-suggestion-slider h2 i, .main .catgory-more .container-suggestion-slider h2 i, .main .digiplus .container-suggestion-slider h2 i, .main .digiclub .container-suggestion-slider h2 i, .main .Best-selling-products .container-suggestion-slider h2 i, .main .Selection-of-discount-and-auction-products .container-suggestion-slider h2 i, .main .Readings .container-suggestion-slider h2 i, .main .Selection-of-discount-and-auction-products .section-Selection-of-discount h2 i {
   color: #f9bc00;
 }
 
@@ -1259,6 +1437,17 @@ h2 {
 .main .banner .content-banner img {
   width: 100%;
   border-radius: 10px;
+}
+
+.main .Readings .container-readings {
+  width: 80%;
+  height: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
 }
 
 @font-face {

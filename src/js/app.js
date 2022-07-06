@@ -8,10 +8,10 @@ var n;
 function popUP() {
   let popUpimage = document.getElementById("popup-image");
   let closePopup = document.getElementById("btn-close-popup");
-  popUpimage.style.right = '0px';
-  closePopup.addEventListener('click',(e)=>{
+  popUpimage.style.right = "0px";
+  closePopup.addEventListener("click", (e) => {
     e.preventDefault();
-    popUpimage.style.right = '-500px';
+    popUpimage.style.right = "-500px";
   });
 }
 setTimeout(() => {

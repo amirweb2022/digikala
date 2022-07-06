@@ -1,59 +1,59 @@
-$color-black:#000;
-$color-red:#ef4056;
-$color-green:#39ae00;
-$color-white:#fff;
-$color-icon-search:#a1a3a8;
-$font-Iran:iran;
+$color-black: #000;
+$color-red: #ef4056;
+$color-green: #39ae00;
+$color-white: #fff;
+$color-icon-search: #a1a3a8;
+$font-Iran: iran;
 @font-face {
-    font-family: iran;
-    src: url(/asset/font/iransan.ttf);
+  font-family: iran;
+  src: url(/asset/font/iransan.ttf);
 }
 @mixin flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@mixin felexColumn  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+@mixin felexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 @mixin flexBetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @mixin flexEnd {
-    display: flex;
-    justify-content: end;
-    flex-direction: column;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
 }
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: $color-icon-search; 
-    border-radius: 10px;
+  background: $color-icon-search;
+  border-radius: 10px;
 }
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $font-Iran;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-Iran;
 }
 a {
-    text-decoration: none;
-    color: $color-black;
+  text-decoration: none;
+  color: $color-black;
 }
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 h2 {
-    text-align: center;
-    font-size: 20px;
-    margin: 20px 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0;
 }
