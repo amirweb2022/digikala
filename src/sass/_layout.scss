@@ -277,12 +277,83 @@
   }
   .Readings {
     @extend .suggestion-slider;
+    margin-bottom: 30px;
     .container-readings {
       width: 80%;
       height: 100%;
       margin-top: 20px;
       @include felexColumn;
       margin: 0 auto;
+    }
+  }
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  border-top: 1.5px solid rgb(226, 222, 222);
+  .header-footer {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+    padding: 0 20px;
+    @include flexBetween;
+  }
+  .Possibilities {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    .container-possibilities {
+      margin: 0 auto;
+      width: 90%;
+      height: 100%;
+      @include flexBetween;
+    }
+  }
+  .digikala {
+    @extend .Possibilities;
+    padding: 40px 0;
+    .container-digikala {
+      @extend .header-footer;
+      align-items: flex-start;
+    }
+  }
+  .download-aplication {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(226, 222, 222);
+    padding: 40px 0;
+    .container-download-aplication {
+      width: 98%;
+      height: 100%;
+      margin: 0 auto;
+      background-color: #3c4b6d;
+      border-radius: 8px;
+      @include flexBetween;
+      padding: 15px 15px;
+      color: $color-white;
+    }
+  }
+  .symbol-of-trust {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    .container-symbol-of-trust {
+      width: 98%;
+      height: 100%;
+      margin: 0 auto;
+      @include flexBetween;
+      border-bottom: 1px solid rgb(226, 222, 222);
+      padding-bottom: 10px;
+    }
+  }
+  .end-footer {
+    width: 100%;
+    height: 100%;
+    .container-end-footer {
+      width: 100%;
+      height: 100%;
+      @include flexCenter;
+      flex-wrap: wrap;
     }
   }
 }

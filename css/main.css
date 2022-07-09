@@ -742,6 +742,7 @@ h2 {
 
 .digiplus-content-left .header-digiplus-content-left .Immediate-delivery {
   display: flex;
+  width: 100%;
 }
 
 .digiplus-content-left .header-digiplus-content-left .Immediate-delivery .icon-rocket {
@@ -1104,6 +1105,276 @@ h2 {
   color: #0c0c0c;
 }
 
+.logo-Support-header-footer img {
+  width: 30%;
+}
+
+.logo-Support-header-footer .text-support-header-footer {
+  margin-top: 10px;
+}
+
+.logo-Support-header-footer .text-support-header-footer p {
+  font-size: 12px;
+  color: #0c0c0c;
+}
+
+.button-go-to-up {
+  background-color: transparent;
+  border: 1px solid #e0e0e2;
+  border-radius: 8px;
+  padding: 10px 30px;
+  color: #a1a3a8;
+  cursor: pointer;
+}
+
+.button-go-to-up i {
+  margin-right: 10px;
+}
+
+.box-container-possibilities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.box-container-possibilities img {
+  width: 25%;
+}
+
+.box-container-possibilities p {
+  color: #424750;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.box-digikala {
+  width: 100%;
+  height: 100%;
+}
+
+.box-digikala p {
+  font-weight: 700;
+  color: #424750;
+  font-size: 17px;
+}
+
+.box-digikala ul {
+  margin-top: 15px;
+}
+
+.box-digikala ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.box-digikala ul li a {
+  font-weight: 400;
+  color: #81858b;
+}
+
+.box-digikala .media {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+.box-digikala .media .box-media {
+  margin-left: 40px;
+  color: #a1a3a8;
+}
+
+.box-digikala .media .box-media i {
+  font-size: 2.5rem;
+}
+
+.box-digikala .news-data {
+  margin-top: 10px;
+}
+
+.box-digikala .news-data h4 {
+  color: #424750;
+  font-size: 17.5px;
+  font-weight: 700;
+}
+
+.box-digikala .input-email {
+  margin-top: 20px;
+}
+
+.box-digikala .input-email input {
+  border: none;
+  background-color: #f0f0f1;
+  padding: 0 10px;
+  height: 50px;
+  padding-left: 100px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.box-digikala .input-email input:focus {
+  color: #ef4056;
+}
+
+.box-digikala .input-email button {
+  border: none;
+  padding: 15px 18px;
+  margin-right: 5px;
+  background-color: #e0e0e2;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.section-logo-download {
+  width: 100%;
+  height: 100%;
+}
+
+.section-logo-download .footer-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-logo-download .text-footer {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.section-logo-download .text-footer p {
+  font-size: 1.32rem;
+  font-weight: 500;
+}
+
+.system-download {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.system-download .box-system-download {
+  margin-left: 15px;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.system-download .box-system-download img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.system-download .more-system {
+  background-color: #fff;
+  width: calc(30% / 5);
+}
+
+.system-download .more-system img {
+  width: 100%;
+}
+
+.text-container-symbol-of-trust {
+  width: 100%;
+  height: 100%;
+}
+
+.text-container-symbol-of-trust .title-text-container {
+  font-size: 16px;
+  color: #0c0c0c;
+  font-weight: 600;
+}
+
+.text-container-symbol-of-trust .paragraph-text-container {
+  font-size: 14px;
+  color: #81858b;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.text-container-symbol-of-trust .look-more {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.symbol {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.symbol .box-symbol {
+  border: 1px solid #e2dede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 10px;
+  height: 90px;
+  width: 13%;
+}
+
+.symbol .box-symbol img {
+  width: 55%;
+}
+
+.Rights {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0;
+}
+
+.Rights p {
+  color: #81858b;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.box-container-end-footer {
+  width: calc(100% / 7);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-right: 1px solid #e0e0e2;
+  border-bottom: 1px solid #e0e0e2;
+  background-color: #f2f2f2;
+}
+
+.box-container-end-footer .image {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container-end-footer .image img {
+  width: 55%;
+}
+
 .popup-image {
   width: 500px;
   height: 200px;
@@ -1439,6 +1710,10 @@ h2 {
   border-radius: 10px;
 }
 
+.main .Readings {
+  margin-bottom: 30px;
+}
+
 .main .Readings .container-readings {
   width: 80%;
   height: 100%;
@@ -1448,6 +1723,96 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   margin: 0 auto;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  border-top: 1.5px solid #e2dede;
+}
+
+.footer .header-footer, .footer .digikala .container-digikala {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .Possibilities, .footer .digikala {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.footer .Possibilities .container-possibilities, .footer .digikala .container-possibilities {
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .digikala {
+  padding: 40px 0;
+}
+
+.footer .digikala .container-digikala {
+  align-items: flex-start;
+}
+
+.footer .download-aplication {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #e2dede;
+  padding: 40px 0;
+}
+
+.footer .download-aplication .container-download-aplication {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #3c4b6d;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+  color: #fff;
+}
+
+.footer .symbol-of-trust {
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.footer .symbol-of-trust .container-symbol-of-trust {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2dede;
+  padding-bottom: 10px;
+}
+
+.footer .end-footer {
+  width: 100%;
+  height: 100%;
+}
+
+.footer .end-footer .container-end-footer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 @font-face {
