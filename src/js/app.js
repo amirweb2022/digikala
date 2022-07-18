@@ -4,6 +4,11 @@ var btnNext = document.querySelector(".btn-next");
 var number = document.getElementsByClassName("number");
 var i = 0;
 var n;
+// loading
+window.addEventListener("load", ()=> {
+  const load = document.querySelector(".load");
+  load.style.display = 'none';
+});
 // popup message
 function popUP() {
   let popUpimage = document.getElementById("popup-image");

@@ -1,359 +1,361 @@
-.popup-image {
-  width: 500px;
-  height: 200px;
-  position: fixed;
-  z-index: 20;
-  bottom: 1px;
-  background-image: url(/asset/image/popup.jpeg);
-  background-size: cover;
-  background-position: center;
-  right: -500px;
-  transition: all 0.5s ease-in-out;
-  img {
-    display: none;
-    transition: all 0.5s ease-in-out;
-  }
-  &:hover {
-    img {
-      display: block;
-    }
-  }
-}
-.header {
-  position: sticky;
-  top: 0%;
-  z-index: 99999;
-  .headerGift {
-    background-image: url(/asset/image/headerGift.gif);
+.container {
+  .popup-image {
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    z-index: 20;
+    bottom: 1px;
+    background-image: url(/asset/image/popup.jpeg);
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 60px;
-  }
-  .login-searchBox {
-    @include flexBetween;
-    width: 100%;
-    background-color: $color-white;
-    padding: 12px 16px;
-    .logo-search {
-      @include flexCenter;
+    right: -500px;
+    transition: all 0.5s ease-in-out;
+    img {
+      display: none;
+      transition: all 0.5s ease-in-out;
     }
-  }
-}
-.list-map {
-  @include flexBetween;
-  padding: 12px 16px;
-  background-color: $color-white;
-  .menu {
-    @include flexCenter;
-    .list-menu {
-      @include flexCenter;
-    }
-  }
-  .map {
-    @include flexCenter;
-    padding: 5px 10px;
-    font-size: 0.8rem;
-  }
-}
-.container-slider {
-  width: 100%;
-  height: 400px;
-  position: relative;
-  .slider img {
-    width: 100%;
-    height: 100%;
-  }
-  .slider {
-    animation: slide 0.5s;
-    width: 100%;
-    height: 100%;
-    display: none;
-  }
-  .active {
-    display: inline-block;
-  }
-  &:hover .btn {
-    display: flex;
-  }
-}
-@keyframes slide {
-  0% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.main {
-  width: 100%;
-  height: 100%;
-  padding: 20px 20px;
-  .list-markting {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    @include flexCenter;
-    text-align: center;
-    .list {
-      @include felexColumn;
-      color: $color-black;
-      margin: 12px 20px;
-      width: 35%;
-      .text-list {
-        font-size: 12px;
-        margin-top: 5px;
+    &:hover {
+      img {
+        display: block;
       }
-      .dot {
-        width: 57px;
-        height: 55px;
-        border-radius: 50%;
-        background-color: #dcdddf;
-        cursor: pointer;
+    }
+  }
+  .header {
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    .headerGift {
+      background-image: url(/asset/image/headerGift.gif);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 60px;
+    }
+    .login-searchBox {
+      @include flexBetween;
+      width: 100%;
+      background-color: $color-white;
+      padding: 12px 16px;
+      .logo-search {
         @include flexCenter;
-        font-size: 1.5rem;
-        color: #9a9b9d;
       }
     }
-    .list img {
-      width: 50%;
-    }
   }
-  .products {
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-    @include flexCenter;
-    .product-slider {
-      width: 80%;
-      height: 280px;
-      background-color: $color-red;
-      border-radius: 20px;
-      @include flexBetween;
-      position: relative;
-    }
-  }
-  .Amazing {
-    width: 100%;
-    height: 100%;
-    margin-top: 10px;
-    @include flexCenter;
-    .container-Amazing {
-      width: 80%;
-      border-radius: 20px;
-      padding: 40px 20px;
-      background: linear-gradient(
-        rgba(57, 174, 0, 0.1) 0,
-        rgba(242, 242, 242, 0) 100%
-      );
-      @include flexBetween;
-    }
-  }
-  .suggestion {
-    @extend .Amazing;
-  }
-  .catgory {
-    width: 100%;
-    height: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-  .container-gift {
-    @extend .Amazing;
-    .container-Item {
-      width: 80%;
-      margin-top: 30px;
+  .list-map {
+    @include flexBetween;
+    padding: 12px 16px;
+    background-color: $color-white;
+    .menu {
       @include flexCenter;
-      a {
-        margin: 0 15px;
-        .Item-gift {
-          width: 100%;
-          img {
+      .list-menu {
+        @include flexCenter;
+      }
+    }
+    .map {
+      @include flexCenter;
+      padding: 5px 10px;
+      font-size: 0.8rem;
+    }
+  }
+  .container-slider {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    .slider img {
+      width: 100%;
+      height: 100%;
+    }
+    .slider {
+      animation: slide 0.5s;
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+    .active {
+      display: inline-block;
+    }
+    &:hover .btn {
+      display: flex;
+    }
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .main {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    .list-markting {
+      width: 80%;
+      height: 100%;
+      margin: 0 auto;
+      @include flexCenter;
+      text-align: center;
+      .list {
+        @include felexColumn;
+        color: $color-black;
+        margin: 12px 20px;
+        width: 35%;
+        .text-list {
+          font-size: 12px;
+          margin-top: 5px;
+        }
+        .dot {
+          width: 57px;
+          height: 55px;
+          border-radius: 50%;
+          background-color: #dcdddf;
+          cursor: pointer;
+          @include flexCenter;
+          font-size: 1.5rem;
+          color: #9a9b9d;
+        }
+      }
+      .list img {
+        width: 50%;
+      }
+    }
+    .products {
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+      @include flexCenter;
+      .product-slider {
+        width: 85%;
+        height: 280px;
+        background-color: $color-red;
+        border-radius: 20px;
+        @include flexBetween;
+        position: relative;
+      }
+    }
+    .Amazing {
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+      @include flexCenter;
+      .container-Amazing {
+        width: 80%;
+        border-radius: 20px;
+        padding: 40px 20px;
+        background: linear-gradient(
+          rgba(57, 174, 0, 0.1) 0,
+          rgba(242, 242, 242, 0) 100%
+        );
+        @include flexBetween;
+      }
+    }
+    .suggestion {
+      @extend .Amazing;
+    }
+    .catgory {
+      width: 100%;
+      height: 100%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-gift {
+      @extend .Amazing;
+      .container-Item {
+        width: 80%;
+        margin-top: 30px;
+        @include flexCenter;
+        a {
+          margin: 0 15px;
+          .Item-gift {
             width: 100%;
-            border-radius: 10px;
+            img {
+              width: 100%;
+              border-radius: 10px;
+            }
           }
         }
       }
     }
-  }
-  .suggestion-slider {
-    width: 100%;
-    height: 100%;
-    margin-top: 30px;
-    .container-suggestion-slider {
-      width: 80%;
+    .suggestion-slider {
+      width: 100%;
       height: 100%;
-      border: 1px solid rgb(226, 222, 222);
-      margin-top: 40px;
-      border-radius: 10px;
-      @include felexColumn;
-      position: relative;
-      margin: 0 auto;
-      h2 {
-        margin: 20px auto;
-        i {
-          color: #f9bc00;
+      margin-top: 30px;
+      .container-suggestion-slider {
+        width: 80%;
+        height: 100%;
+        border: 1px solid rgb(226, 222, 222);
+        margin-top: 40px;
+        border-radius: 10px;
+        @include felexColumn;
+        position: relative;
+        margin: 0 auto;
+        h2 {
+          margin: 20px auto;
+          i {
+            color: #f9bc00;
+          }
         }
       }
     }
-  }
-  .catgory-more {
-    @extend .suggestion-slider;
-    .container-catgory-more {
-      width: 80%;
-      height: 100%;
-      border: 1px solid rgb(226, 222, 222);
-      border-radius: 10px;
-      @include flexBetween;
-      position: relative;
-      margin: 0 auto;
-      overflow: hidden;
-    }
-  }
-  .digiplus {
-    @extend .suggestion-slider;
-    .container-digiplus {
-      padding: 10px 15px;
-      width: 80%;
-      height: 400px;
-      border-radius: 10px;
-      @include flexBetween;
-      position: relative;
-      margin: 0 auto;
-      border: none;
-      background-color: #941b80;
-    }
-  }
-  .digiclub {
-    @extend .digiplus;
-    margin-top: 10px;
-    .container-digiplus {
-      width: 80%;
-      height: 100%;
-      border-radius: 10px;
-      @include flexBetween;
-      position: relative;
-      margin: 0 auto;
-      border: none;
-      background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
-        radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
-    }
-  }
-  .Best-selling-products {
-    @extend .suggestion-slider;
-    .container-best-selling-products {
-      width: 80%;
-      height: 100%;
-      border: 1px solid rgb(226, 222, 222);
-      margin-top: 40px;
-      border-radius: 10px;
-      @include felexColumn;
-      position: relative;
-      margin: 0 auto;
-    }
-  }
-  .banner {
-    width: 100%;
-    height: 100%;
-    margin-top: 20px;
-    .content-banner {
-      width: 80%;
-      height: 100%;
-      margin: 0 auto;
-      img {
-        width: 100%;
+    .catgory-more {
+      @extend .suggestion-slider;
+      .container-catgory-more {
+        width: 80%;
+        height: 100%;
+        border: 1px solid rgb(226, 222, 222);
         border-radius: 10px;
+        @include flexBetween;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+    }
+    .digiplus {
+      @extend .suggestion-slider;
+      .container-digiplus {
+        padding: 10px 15px;
+        width: 80%;
+        height: 400px;
+        border-radius: 10px;
+        @include flexBetween;
+        position: relative;
+        margin: 0 auto;
+        border: none;
+        background-color: #941b80;
+      }
+    }
+    .digiclub {
+      @extend .digiplus;
+      margin-top: 10px;
+      .container-digiplus {
+        width: 80%;
+        height: 100%;
+        border-radius: 10px;
+        @include flexBetween;
+        position: relative;
+        margin: 0 auto;
+        border: none;
+        background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+          radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+      }
+    }
+    .Best-selling-products {
+      @extend .suggestion-slider;
+      .container-best-selling-products {
+        width: 80%;
+        height: 100%;
+        border: 1px solid rgb(226, 222, 222);
+        margin-top: 40px;
+        border-radius: 10px;
+        @include felexColumn;
+        position: relative;
+        margin: 0 auto;
+      }
+    }
+    .banner {
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+      .content-banner {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+    }
+    .Selection-of-discount-and-auction-products {
+      @extend .suggestion-slider;
+      .section-Selection-of-discount {
+        @extend .container-suggestion-slider;
+      }
+    }
+    .Readings {
+      @extend .suggestion-slider;
+      margin-bottom: 30px;
+      .container-readings {
+        width: 80%;
+        height: 100%;
+        margin-top: 20px;
+        @include felexColumn;
+        margin: 0 auto;
       }
     }
   }
-  .Selection-of-discount-and-auction-products {
-    @extend .suggestion-slider;
-    .section-Selection-of-discount {
-      @extend .container-suggestion-slider;
-    }
-  }
-  .Readings {
-    @extend .suggestion-slider;
-    margin-bottom: 30px;
-    .container-readings {
-      width: 80%;
-      height: 100%;
-      margin-top: 20px;
-      @include felexColumn;
-      margin: 0 auto;
-    }
-  }
-}
-.footer {
-  width: 100%;
-  height: 100%;
-  border-top: 1.5px solid rgb(226, 222, 222);
-  .header-footer {
+  .footer {
     width: 100%;
     height: 100%;
-    margin: 20px 0;
-    padding: 0 20px;
-    @include flexBetween;
-  }
-  .Possibilities {
-    width: 100%;
-    height: 100%;
-    margin-top: 40px;
-    .container-possibilities {
-      margin: 0 auto;
-      width: 90%;
-      height: 100%;
-      @include flexBetween;
-    }
-  }
-  .digikala {
-    @extend .Possibilities;
-    padding: 40px 0;
-    .container-digikala {
-      @extend .header-footer;
-      align-items: flex-start;
-    }
-  }
-  .download-aplication {
-    width: 100%;
-    height: 100%;
-    border-bottom: 1px solid rgb(226, 222, 222);
-    padding: 40px 0;
-    .container-download-aplication {
-      width: 98%;
-      height: 100%;
-      margin: 0 auto;
-      background-color: #3c4b6d;
-      border-radius: 8px;
-      @include flexBetween;
-      padding: 15px 15px;
-      color: $color-white;
-    }
-  }
-  .symbol-of-trust {
-    width: 100%;
-    height: 100%;
-    margin-top: 30px;
-    .container-symbol-of-trust {
-      width: 98%;
-      height: 100%;
-      margin: 0 auto;
-      @include flexBetween;
-      border-bottom: 1px solid rgb(226, 222, 222);
-      padding-bottom: 10px;
-    }
-  }
-  .end-footer {
-    width: 100%;
-    height: 100%;
-    .container-end-footer {
+    border-top: 1.5px solid rgb(226, 222, 222);
+    .header-footer {
       width: 100%;
       height: 100%;
-      @include flexCenter;
-      flex-wrap: wrap;
+      margin: 20px 0;
+      padding: 0 20px;
+      @include flexBetween;
+    }
+    .Possibilities {
+      width: 100%;
+      height: 100%;
+      margin-top: 40px;
+      .container-possibilities {
+        margin: 0 auto;
+        width: 90%;
+        height: 100%;
+        @include flexBetween;
+      }
+    }
+    .digikala {
+      @extend .Possibilities;
+      padding: 40px 0;
+      .container-digikala {
+        @extend .header-footer;
+        align-items: flex-start;
+      }
+    }
+    .download-aplication {
+      width: 100%;
+      height: 100%;
+      border-bottom: 1px solid rgb(226, 222, 222);
+      padding: 40px 0;
+      .container-download-aplication {
+        width: 98%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #3c4b6d;
+        border-radius: 8px;
+        @include flexBetween;
+        padding: 15px 15px;
+        color: $color-white;
+      }
+    }
+    .symbol-of-trust {
+      width: 100%;
+      height: 100%;
+      margin-top: 30px;
+      .container-symbol-of-trust {
+        width: 98%;
+        height: 100%;
+        margin: 0 auto;
+        @include flexBetween;
+        border-bottom: 1px solid rgb(226, 222, 222);
+        padding-bottom: 10px;
+      }
+    }
+    .end-footer {
+      width: 100%;
+      height: 100%;
+      .container-end-footer {
+        width: 100%;
+        height: 100%;
+        @include flexCenter;
+        flex-wrap: wrap;
+      }
     }
   }
 }

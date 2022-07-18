@@ -377,9 +377,16 @@
   }
 }
 .container-box-suggestion {
-  @extend .product-box;
-  .box-suggestion-slider {
-    min-width: 200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  &:hover {
+    cursor: grab;
+  }
+  .box-suggestion-slider,.swiper-slide {
+    width: 150px;
     height: 100%;
     border-right: 1px solid rgb(226, 222, 222);
     margin-left: 10px;
@@ -657,10 +664,11 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  overflow: hidden;
-  .box-content-Best-selling-products {
-    max-width: 400px;
-    min-width: 400px;
+  &:hover {
+    cursor: grab;
+  }
+  .box-content-Best-selling-products,.swiper-slide {
+    width: 400px;
     height: 100%;
     @include felexColumn;
     justify-content: flex-start;
@@ -815,9 +823,9 @@
   @include flexCenter;
   margin: 20px 0;
   a {
-      width: 100%;
-      height: 100%;
-      margin-left: 10px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
     .box-reading {
       width: 100%;
       height: 100%;
@@ -1012,7 +1020,7 @@
   height: 100%;
   display: flex;
   justify-content: flex-end;
-  align-items:center;
+  align-items: center;
   margin-bottom: 30px;
   .box-symbol {
     border: 1px solid rgb(226, 222, 222);
@@ -1052,5 +1060,40 @@
     img {
       width: 55%;
     }
+  }
+}
+.load {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1111;
+}
+.load div {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(181, 184, 187);
+  margin-left: 5px;
+  border-radius: 50%;
+  margin-top: calc(50px - 12.5px);
+  animation-name: loading;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.load-two {
+  animation-delay: 0.4s;
+}
+.load-three {
+  animation-delay: 0.8s;
+}
+@keyframes loading {
+  to {
+    opacity: 0.3;
   }
 }
