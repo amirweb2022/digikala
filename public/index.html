@@ -680,9 +680,6 @@
             <a href="#" class="btn-products-right" id="product-btn">
               <i class="fas fa-arrow-left"></i>
             </a>
-            <a href="#" class="btn-products-left">
-              <i class="fas fa-arrow-right"></i>
-            </a>
           </div>
         </div>
         <!-- Amazing-offer -->
@@ -2619,8 +2616,10 @@
           </div>
           <!-- btn-go-to-up -->
           <div class="btn-go-to-up">
-            <button class="button-go-to-up" type="button">
-              بازگشت به بالا <i class="fas fa-angle-up"></i>
+            <button class="button-go-to-up" type="submit">
+              <a href="#">
+                بازگشت به بالا <i class="fas fa-angle-up"></i>
+              </a>
             </button>
           </div>
         </div>
@@ -2727,8 +2726,9 @@
               <!-- input-email -->
               <div class="input-email">
                 <form>
-                  <input type="text" placeholder="ایمیل شما" />
-                  <button type="submit" disabled>ثبت</button>
+                  <input type="text" placeholder="ایمیل شما" / id="input-email-validation">
+                  <button type="submit" id="btn-email-validation">ثبت</button>
+                  <p class="alert-email"></p>
                 </form>
               </div>
             </div>

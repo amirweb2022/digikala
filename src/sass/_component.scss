@@ -267,19 +267,6 @@
   left: 0px;
   border: 1px solid rgb(191, 195, 199);
 }
-.btn-products-left {
-  width: 47px;
-  height: 45px;
-  border-radius: 50%;
-  background-color: $color-white;
-  @include flexCenter;
-  font-size: 1.1rem;
-  color: #5b5b5b;
-  position: absolute;
-  right: 10px;
-  display: none;
-  border: 1px solid rgb(191, 195, 199);
-}
 .Item-Amazing-Right {
   padding-right: 20px;
   @include flexCenter;
@@ -385,7 +372,8 @@
   &:hover {
     cursor: grab;
   }
-  .box-suggestion-slider,.swiper-slide {
+  .box-suggestion-slider,
+  .swiper-slide {
     width: 150px;
     height: 100%;
     border-right: 1px solid rgb(226, 222, 222);
@@ -667,7 +655,8 @@
   &:hover {
     cursor: grab;
   }
-  .box-content-Best-selling-products,.swiper-slide {
+  .box-content-Best-selling-products,
+  .swiper-slide {
     width: 400px;
     height: 100%;
     @include felexColumn;
@@ -867,10 +856,12 @@
   border: 1px solid #e0e0e2;
   border-radius: 8px;
   padding: 10px 30px;
-  color: #a1a3a8;
   cursor: pointer;
-  i {
-    margin-right: 10px;
+  a {
+    color: #a1a3a8;
+    i {
+      margin-right: 10px;
+    }
   }
 }
 .box-container-possibilities {
@@ -952,6 +943,12 @@
       border-radius: 8px;
       font-weight: 700;
     }
+  }
+  .alert-email {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #b2001a;
+    font-weight: 400;
   }
 }
 .section-logo-download {

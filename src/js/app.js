@@ -64,3 +64,27 @@ setInterval(() => {
   number[i].classList.add("active-number");
 }, 5000);
 // end slider
+// button validation footer
+const inputEmailValidation = document.getElementById("input-email-validation");
+const alertEmail = document.querySelector(".alert-email");
+const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/; // validation email
+const btnEmailValidation = document.getElementById("btn-email-validation");
+inputEmailValidation.addEventListener('keyup' , ()=> {
+  inputEmailValidation.style.color = '#424750';
+  if(inputEmailValidation.value === "") {
+    alertEmail.innerHTML = 'این فیلد نمی‌تواند خالی باشد';
+    btnEmailValidation.style.backgroundColor = '#e0e0e2';
+    btnEmailValidation.style.color = '#fff';
+    btnEmailValidation.style.cursor = 'auto';
+  } else if(inputEmailValidation.value.match(pattern)) {
+    alertEmail.innerHTML = '';
+    btnEmailValidation.style.backgroundColor = '#ef4056';
+    btnEmailValidation.style.color = '#fff';
+    btnEmailValidation.style.cursor = 'pointer';
+  }else {
+    alertEmail.innerHTML = 'پست الکترونیک وارد شده درست نیست';
+    btnEmailValidation.style.backgroundColor = '#e0e0e2';
+    btnEmailValidation.style.color = '#fff';
+    btnEmailValidation.style.cursor = 'auto';
+  } 
+});

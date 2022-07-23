@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: iran;
   src: url(/asset/font/iransan.ttf);
@@ -371,22 +375,6 @@ h2 {
   border: 1px solid #bfc3c7;
 }
 
-.btn-products-left {
-  width: 47px;
-  height: 45px;
-  border-radius: 50%;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.1rem;
-  color: #5b5b5b;
-  position: absolute;
-  right: 10px;
-  display: none;
-  border: 1px solid #bfc3c7;
-}
-
 .Item-Amazing-Right {
   padding-right: 20px;
   display: flex;
@@ -524,7 +512,8 @@ h2 {
   cursor: grab;
 }
 
-.container-box-suggestion .box-suggestion-slider, .container-box-suggestion .swiper-slide {
+.container-box-suggestion .box-suggestion-slider,
+.container-box-suggestion .swiper-slide {
   width: 150px;
   height: 100%;
   border-right: 1px solid #e2dede;
@@ -536,7 +525,8 @@ h2 {
   align-items: flex-start;
 }
 
-.container-box-suggestion .box-suggestion-slider .item-box-suggestion, .container-box-suggestion .swiper-slide .item-box-suggestion {
+.container-box-suggestion .box-suggestion-slider .item-box-suggestion,
+.container-box-suggestion .swiper-slide .item-box-suggestion {
   width: 100%;
   height: 100%;
   margin-left: 15px;
@@ -548,7 +538,8 @@ h2 {
   border-bottom: 1px solid #ece8e8;
 }
 
-.container-box-suggestion .box-suggestion-slider .item-box-suggestion .img-box-suggestion, .container-box-suggestion .swiper-slide .item-box-suggestion .img-box-suggestion {
+.container-box-suggestion .box-suggestion-slider .item-box-suggestion .img-box-suggestion,
+.container-box-suggestion .swiper-slide .item-box-suggestion .img-box-suggestion {
   width: 50%;
   height: 50%;
   padding: 10px 0;
@@ -560,7 +551,8 @@ h2 {
   margin-bottom: 10px;
 }
 
-.container-box-suggestion .box-suggestion-slider .item-box-suggestion p, .container-box-suggestion .swiper-slide .item-box-suggestion p {
+.container-box-suggestion .box-suggestion-slider .item-box-suggestion p,
+.container-box-suggestion .swiper-slide .item-box-suggestion p {
   font-size: 14px;
   font-weight: 400;
   color: #0c0c0c;
@@ -890,7 +882,8 @@ h2 {
   cursor: grab;
 }
 
-.container-box-Best-selling-products .box-content-Best-selling-products, .container-box-Best-selling-products .swiper-slide {
+.container-box-Best-selling-products .box-content-Best-selling-products,
+.container-box-Best-selling-products .swiper-slide {
   width: 400px;
   height: 100%;
   display: flex;
@@ -901,7 +894,8 @@ h2 {
   padding: 20px 10px;
 }
 
-.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products, .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products {
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products,
+.container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products {
   width: 100%;
   height: 100%;
   display: flex;
@@ -909,7 +903,8 @@ h2 {
   align-items: center;
 }
 
-.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content, .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content {
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content,
+.container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content {
   width: 50%;
   height: 100%;
   display: flex;
@@ -917,17 +912,22 @@ h2 {
   margin: 5px 0;
 }
 
-.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content img, .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content img {
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content img,
+.container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content img {
   width: 50%;
 }
 
-.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content span, .container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content .login .content-login .body-login p, .login .content-login .body-login .container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content p, .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content span, .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content .login .content-login .body-login p, .login .content-login .body-login .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content p {
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content span, .container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content .login .content-login .body-login p, .login .content-login .body-login .container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .image-item-box-content p,
+.container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content span,
+.container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content .login .content-login .body-login p,
+.login .content-login .body-login .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .image-item-box-content p {
   color: #19bfd3;
   font-size: 1.9rem;
   font-weight: 800;
 }
 
-.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .text-item-box-content, .container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .text-item-box-content {
+.container-box-Best-selling-products .box-content-Best-selling-products .item-box-content-Best-selling-products .text-item-box-content,
+.container-box-Best-selling-products .swiper-slide .item-box-content-Best-selling-products .text-item-box-content {
   width: 55%;
   height: 100%;
   display: flex;
@@ -1137,11 +1137,14 @@ h2 {
   border: 1px solid #e0e0e2;
   border-radius: 8px;
   padding: 10px 30px;
-  color: #a1a3a8;
   cursor: pointer;
 }
 
-.button-go-to-up i {
+.button-go-to-up a {
+  color: #a1a3a8;
+}
+
+.button-go-to-up a i {
   margin-right: 10px;
 }
 
@@ -1246,6 +1249,13 @@ h2 {
   color: #fff;
   border-radius: 8px;
   font-weight: 700;
+}
+
+.box-digikala .alert-email {
+  font-size: 12px;
+  margin-top: 8px;
+  color: #b2001a;
+  font-weight: 400;
 }
 
 .section-logo-download {
@@ -1867,6 +1877,10 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @font-face {

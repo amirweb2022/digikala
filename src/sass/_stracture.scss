@@ -4,6 +4,9 @@ $color-green: #39ae00;
 $color-white: #fff;
 $color-icon-search: #a1a3a8;
 $font-Iran: iran;
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: iran;
   src: url(/asset/font/iransan.ttf);
